@@ -1,0 +1,26 @@
+These will create a network in your local drive.
+The specs files will then download data according to the day and time.
+Use a scheduler to then schedule .txt or .doc or .html download generation according to each locations specifications.
+
+Will be complete when aligned with the Source Management System project.
+
+The fake Big data from SMS will be made into smaller dataframes and assigned to the source and locations.
+The fake big data will generate more and more data on a regular basis.
+Specific dataframes from that big data files or (SQL databases) will then be assigned to each source and location.
+for example. source 10, location 2, will be names 1 to 10 from the big names data file.
+Now, what changes each month in the big data list is up to you.
+
+I am thinking of making the online store a monthly subscription service for phones and sims and packages.
+Each month or week, the customer, who is on the list, pays, and each time they pay, we add a new column of date they've paid or not paid with the name of subscription they are on. If they stop paying, we add date and write not paid, last subscription name. We never remove customer details from the system.
+
+
+This will be the project I make for Birkbeck.
+
+An online store that provides phone packages and sims.
+The builtin CRM adds customers to the list.
+The fake data generator adds fake history of customers and sales to the database - financials (transposed/data of sales made) is available on the website for investors to see how the company is doing. Data is updated on a monthly basis for each customer.
+
+We extract sets of data according to the source and location for which it is assigned to using SQL or MongoDB.
+
+
+This needs more work and thought, of course.
