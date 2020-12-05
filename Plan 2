@@ -1,0 +1,129 @@
+
+# Convert this into a software that tells me the DLs for the Innoscripts.
+# Each run of this script must give me an excel list of downloads, download dates, missed to be colored in red, how many days is it far behind,
+# If monthly, then how many single missing downloads,
+# At the end, you add to a database the routine of the DLs - store as spreadsheet for the t0p 235 series.
+# This will be the ultimate innovation we can bring to the table.
+# Also, go through scraping, HTML, C libraries, JS, CSS, SQL, MongoDB, Tkinter, Numpy, Pandas advanced and cookbook to be saved in Github.
+# Finish this current project and start building your store as a business - have internal CRM, a website, a database, security, security checks,
+#           Have users, scheduled fake sales, update sales, reports, future forecasts, regex, you know... the project you have got in mind.
+#           Finish rabbit hole in a way that it works for any APIs that we deal with - JSON.
+#           The website can show data from the internal CRM.
+#           You do need to design the program on a piece of paper so that you know what you are building.
+#           Treat it like a real project - pretend like you have a business that sells Computer Hardware - for two years it has had no CRM - just Excel record of sales, customers. and product info
+#           Now, we have employees that want to use a CRM from sites based in various different cities, they want the customer to be able to place orders using a website and app.
+#           The app/website sends a request to our CRM and the sale is then made,considered pending, or cancelled. All get saved in the database.
+#           The website has a Home Page, About US, Contact Us, Our product range, Search bar (to be made smarter and smarter), search item page, our sales records,
+                                #		our forecasts for the future, graphs page, check your account (user or employee and employee has access to sales records)
+                                # Buy a product.
+#           Main Page (CRM): has option to go on our website directly.                                
+#           CRM: Add a sale, customer, product! This then gets added to pandas excel or a database. The items can then be searched, sorted, printed, graphs generated,
+#           CRM: It has to look even better than before, or you can use something else to make the frontend of it.
+#           CRM: Main page gives 3 tabs - customers, sales, products. More to come later - copy the metro bank CRM system.
+#           CRM: Each page (sales, customers, products) has a graph option to show where we are.
+#           CRM: We can then select an item and either remove, update, copy, paste - as if it is an excel row.
+#           CRM: Dateadded must be an option as well. They can be sorted according to convenient options.
+
+# THE TIME IS NOW !!!!!
+
+
+#   PROJECT NOW:    # This is a fake data generator for our peeps - now take it seriously please.
+                # Option to either use a resilient scraper or a name database that we have - either ways, it is for them to choose.
+                # Number of records for sales, customers, products (type of commodity will make it more intersting) so give them options like fruit market, phone/service company
+                                    # .... car company, vegetable market,
+                                    # .... next, have a range of dates (using NumPy, pandas, datetime) and then you could either split it in 30 or 300, it is upto you.
+                                    # .... for example: from 22 03 2003 till 24 09 2009 - you could have either 2 sales, or you could have as much as 5000.
+                                    # .... Then, we sort them or do not sort them, however, the initial save will be using the sort we choose here and that is how the data will be aligned in the backend
+                                    # .... excel sheet.
+                                    # .... have the option to choose the locality of our customers / salesPeople so that a wider area range challenge can then be dealt with.
+                                    # .... country names and then the respective cities and their local hubs can be scraped and divided evenly.
+                                                        # for that, we will keep some boundaries (but fake addresses from USA, UK, Canada, Ireland) - full addresses, however.
+                                                        
+                                    # .... check project 43 to see what columns we need here.
+                                    # .... number of sales present will be then divided among customers - evenly or not.
+                                    # .... many columns can be set for our sheets (all sheets).
+                                    # .... graphs can then be produced in the manner of sort.
+                                    # May be we can have a complaint type option as well : Meaning, a customer has a type of complaint - we can then search it up from the complaints data base.
+                                    # Would be very smart to get the PC to create it's own complaints.
+                # Next, we need to know what we are going to be doing with this data - now we have 3 different types of data
+                                    # .... sales - performance related and this can be used for future predictions, current performance and reports for each month or year. OR day.
+                                    # .... products - this can be declared into a store showing the items we have present and what they do.
+                                                        "turn this into a presentation then - do somethin with it."
+                                    # .... Customer info: purchases, payments, total spent, complaints, failed payments, age, career path,
+                                                        # Can we then make correlations between the age, career, type of purchase and use it for our good?
+                                                        # for example, a guy under 20 buys games, a guy under 20 who has a career path buys a macbook pro and sticks to only that!
+                                    # A unique ID will be common among all sheets - type of data - we will find a way.
+                                    # Timezones for when the sale was made will then translate to the local time for that location.
+                # Deals as a phone, sim, cellular packages provider.
+                # Step one: Scrape all names, use Selenium to navigate and look for more names and then extract them,
+                # Use the same for sales people.
+                # Once that is done, have a criteria (selection) for the type of fake data you need
+                #Before all of the above, create and finish the excel scraper but connect it with Tkinter, SQL, Datascience options. Sci-Py, Sci-kit, Numpy, Pandas, Daniel Chen ideas,
+                #reallife data science problems with pandas video.
+                # What do this do???
+                # Well, it generates a list of series for customers, products that we sell, sales made so far, sales people and their performance, a report generator that
+                                # tells us what this report is about, how the numbers are, what can be done, what has gone well, what is the max, min, average, bla bla bla
+                # Options to sort the data, with regards to a specific column
+                # Buttons available to let us print the median, average, mode, forecasts, statistics, probability of something happening.
+                # Button to generate a graph for all aspects (sales, performance, customer info showing their stats, complaints, purchases,
+
+                # So, can we facilitate a fake database that updates regularly, using a scheduler - or may be, it will use that front end to enter data by itself and then add it to the current
+                                # .... sales we have - it could be a new or existing customer. The system will figure that out by itself of course.
+
+                # Later, try this all in Java/C as well - in order to get a better understanding of desktop apps, input taking front end apps that can update an excel sheet or sql database
+                # Or may be, we send the entered data to all of our database in Mongo, SQL and the excel sheet.
+                # SO, to summarize, generate fake data according to our needs and be able to update it as if it is a real sale or addition to complaint, product, etc.
+                                # SO, to summarize, the data can then be used for students, teachers, fools, retards, players, sexists, abortionists and many more to do the following;
+                                                        # 1. Predict number of sales at a certain date.
+                                                        # 2. Use external changes and news to predict changes (Super advanced but destiny).
+                                                        # 3. Make graphs for various aspects.
+                                                        # 4. Make comparisons with other years, or other stores because we can always generate and save another store in another storage area.
+                                                        # 5. Sales people's performances can be compared, predicted
+                                                                        # aspects like family, gender, health, sexual frustration, criminal history or tendencies, childhood traumas,
+                                                                        # HERE, I can use that interview or chatbot + interview idea to gather information, randomly using MCQ questions and answers or just do it
+                                                                                        # myself, but the evaluation will be very, very smart and will use AI and Neural Networks to understand how behaviours, life moments,
+                                                                                        # situation, traumas, happy moments (for e.g. the customer had a dog that the sales person also has and THUS, we have a new customer)
+                                                                                        # In the future, a certain event in a sales person's life can make better and more acccurate predictions.
+                                                                                        # this is going to be so deep that it will know that even if the sales person has had a break up, the good looks and patience allows
+                                                                                            # him/her to not have sales affected so badly.
+                                                        # 6. Data can be saved in Excel, Mongo, SQL, JSON,
+                                                                    "as a report (advanced shit)"
+                                                        # 7. Reports can be made that describe the current circumstances of the company/store really well,
+                                                                        # If we have various branches, events and news can be used as a means to influence future forecasts.
+                                                                        # Ask Hamna what type of things we can do with data (for learning purposes, for forecasts, categorizing or transposing or graph making)
+                                                        # 8. The PC will automatically adjust any tally for sales, purchases, complaints, stock
+                                # SO, a live update of the stock can be kept somewhere - once that is finished, a fake supplier that has it's own dealings with selling it's raw material(s), will send
+                                                        # .... more and we will lose or gain money.
+                                # SO,  fake ledger which will be done in real time will be kept in a separate storage - BUT this one will be done using a different Programming Language
+                                                    # .... to confirm, the bank/account/accountsPageOrFacility will take inputs regarding changes from this current language, however the input will
+                                                    # .... be processed using another language (something you want to add to your portfolio) and changes will be made to the overall position of our capital,
+                                                                        # .... investors, bank loans, personal loans from the Mafia
+                                                                        # .... each loan has a deadline, problems occurring at random.
+
+
+
+
+                                # SO, BEFORE I forget, we have to use a probability script to control or random sales, purchases, complaints - etc. (advanced and requires a bit of vision).
+
+
+
+                                # ONCE this is done, we can build it into the actual store that we are creating - the data we have here will be the one we use to represent statistics of the store that
+                                                    # .... was only existent on paper and MS Excel - sales we added manually to the spreadsheet and some other things were also done using the same excel
+                                                    # .... program (MS Excel)
+                                                    # .... This will be the foundation for what our store is at the moment - future plans will be based accordingly and then the above options will be
+                                                                        # .... integrated to have data functionality for our store.
+
+                                # TO SUM IT UP - USE DATA STRUCTURES, JAVA, REGEX, C, C++, JAVA, HTML, JS, CSS, PYTHON, BATCH, GRAPHQL, APACHE, AMPLIFY, NODEJS, VUEJS, SERVERS,
+                                                    # DATA SCIENCE MODULES, BUILD ETL, COPY METRO CRM, SCRAPE, TRY TO USE SOME SIMULATING IF POSSIBLE (DADDYYYY) , MINTEC ANALYTICS TYPE
+                                                    # Selenium, 
+                                                    # FRONT END AND OPTIONS - TO FIND A WAY TO WIN EVERYONES' HEARTS, SAVE TO GITHUB AND EVOLVE FROM THERE.
+                                                    # A LOG TO MAKE SURE EACH SCHEDULED FAKE SALE IS RECORDED, SAVED AND KEPT YET IN ANOTHER SHEET.
+                                                    # Regex to be used. fstrings, :00 :01 to be used.
+                                                    # NLP to be learned,
+                                                    # MD5, import gettext
+                                                    # vajid reduce and concatenate.
+                                                    # Have an email database that sends emails to all the sales people with their graphs, stats, reports (NLP), future predictions.
+                                                    # Use tricks from your project.py file
+                                                    # Use tricks from your tricks folder.
+                                                    # Scheduler, watchdog, advanced OOP and
+                                                    # Django / Flask / Venv / Connecting to my own made servers or so.
