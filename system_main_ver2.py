@@ -78,8 +78,9 @@ main_current_path = r"C:\Users\ABC\Desktop\JOB 2020\Source-Management-System-Tri
 df = pd.DataFrame(columns=list(("first", "second", "third", "FOURTH",)))
 
 # Creates a new folder.
-if not os.path.exists(dict_["path_1"]):
-    os.path.makedirs(dict_["path_2"])
+# if not os.path.exists(dict_["path_1"]):
+#     os.path.mkdirs(dict_["path_2"])
+    
 
 class forRoot2:
     def __init__(self, root_):
@@ -251,12 +252,19 @@ root.config(menu = menuBar)
 # Menu option that saves the table.
 
 frameTreeView = Frame(root, bg = "red", bd = 5)
-frameTreeView.pack()
+frameTreeView.place(x = 50, y = 50, height = 350, width = 300)
+
+
+test_frame = Frame(frameTreeView, bg = "black")
+test_frame.place(x = 1, y = 1, height = 10, width = 20)
+
+test_button = Button(test_frame, text = "TEST_BUTTON")
+test_button.pack() # (row=0, column = 1)
 
 scroll_x = Scrollbar(frameTreeView, orient= HORIZONTAL)
 scroll_y = Scrollbar(frameTreeView, orient = VERTICAL)
 
-scroll_x.pack(side=TOP, fill = X)
+scroll_x.pack(side=BOTTOM, fill = X)
 scroll_y.pack(side=RIGHT, fill = Y)
 
 treeView1 = ttk.Treeview(frameTreeView, show = "headings", columns = ("first", "second", "third", "FOURTH"), 
@@ -272,7 +280,7 @@ for c in col:
     treeView1.heading(c, text = c)
     treeView1.column(c, width = 50)
     
-treeView1.pack()
+treeView1.place(x = 10, y = 50)
 
 
 
